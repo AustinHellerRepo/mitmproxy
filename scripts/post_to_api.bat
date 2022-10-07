@@ -1,0 +1,1 @@
+mitmproxy -s post_to_api.py --listen-port 8081 --set api_entrypoint_url=http://localhost:8080/ --set request_url_regex_pattern=^http --set console_eventlog_verbosity=debug

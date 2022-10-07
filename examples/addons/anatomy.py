@@ -12,6 +12,7 @@ class Counter:
 
     def request(self, flow):
         self.num = self.num + 1
+        print(f"incremented to {self.num}")
         logging.info("We've seen %d flows" % self.num)
 
 
